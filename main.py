@@ -29,7 +29,7 @@ def hframe3():
 def calc_handle():
     user_input = frame2entry.get("1.0", "end-1c")
     complexity = equation(user_input)
-    messagebox.showwarning("", f"{complexity} \n")
+    messagebox.showwarning("",f"{complexity} \n")
 
 Button(frame1, text=' محاسبه مرتبه زمانی یک کد مستقل ' , bg="yellow", fg="black", command=lambda: change_frame(frame2)).place(x=350, y=150)
 
